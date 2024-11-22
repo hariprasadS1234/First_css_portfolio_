@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+       
+      
+}
+body{
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 50px;
+
+      
+}
+.navbar{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+.navbar__name{
+    font-size: 45px
+}
+.navbar__contact{
+text-decoration: none;
+background-color: orangered;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 2px;
+padding-bottom: 2px;
+
+display: inline-block;
+    
+   
+
+}
+.desc,.interest,.projects,.footer{
+    margin-top: 10px;
+}
+.interest__list,.projects__list__header li{
+    list-style: none;
+}
+.interest{
+    padding: 20px;
+    background-color: #DC020A;
+    height: 200px;
+    border: black solid 2px;
+    border-radius: 5px;
+    width: fit-content;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+.projects{
+    padding: 20px;
+    background-color: #5B6ABF;
+    height: 200px;
+    border: black solid 2px;
+    border-radius: 5px;
+    width: fit-content;
+display: inline-block;
+}
+.footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+.footer__desc a{
+    color: blue;
+}
+.navbar__contactus{
+  color: white;
+  font-size: 20px;
+}
+.navbar__desc__contactus{
+    background-color: orangered;
+    padding: 5px;
+    width: fit-content;
+    display: inline-block;
+    margin-top: 4px;
+
+}
+.form{
+    padding: 10px;
+
+}
+.form__input input{
+   padding: 10px;
+   border:none;
+   margin-top: 10px;
+   border-bottom: solid 1px black;
+
+  
+}
+.form__input input:focus{
+
+outline: none;
+}
+.form__textarea textarea{
+    
+    margin-top: 20px;
+}
+.form__textarea textarea:focus{
+    outline: none;
+}
+.form__submit input{
+    background-color: orangered;
+    padding: 8px;
+    color: black;
+    margin-top: 5px;
+}
